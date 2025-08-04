@@ -1,2 +1,14 @@
-# weather-forecast-app
-This is a responsive weather forecast web application that allows users to search for real-time weather conditions of any city across the globe. The app fetches data using the OpenWeatherMap API and displays weather parameters such as temperature, humidity, wind speed, and sky conditions with icons.
+# 🌤️ Weather Forecast App
+
+A simple weather app using HTML, CSS, and JavaScript that shows real-time weather data for any city using the OpenWeatherMap API.
+
+## 🔧 Features
+- Search weather by city
+- Shows temperature, humidity, wind, and condition
+- Weather icons and country display
+
+## 🚀 How to Use
+1. Clone the repo
+2. Create a `config.js` file with your API key:
+   ```js
+   const API_KEY = "YOUR_API_KEY_HERE";
