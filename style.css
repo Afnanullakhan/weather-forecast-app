@@ -1,5 +1,6 @@
 body {
-  background: linear-gradient(to right, #83a4d4, #b6fbff);
+  background: url("133964391097268054.jpg") no-repeat center center fixed;
+  background-size: cover;   /* makes the image cover the whole screen */
   font-family: 'Segoe UI', sans-serif;
   display: flex;
   justify-content: center;
@@ -7,12 +8,14 @@ body {
   height: 100vh;
 }
 
+
 .weather-container {
   text-align: center;
-  background: #d2cdcd;
+  background: #111010;
+  color: white;
   padding: 30px;
   border-radius: 16px;
-  box-shadow: 0 8px 16px rgb(245, 9, 9);
+  box-shadow: 0 8px 16px rgb(173, 171, 171);
   max-width: 350px;
   width: 100%;
 }
